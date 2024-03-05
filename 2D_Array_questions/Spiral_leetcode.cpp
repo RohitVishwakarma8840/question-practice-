@@ -3,7 +3,7 @@ public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
         vector<int>ans;
         int row=matrix.size(), col=matrix[0].size();
-    int top=0,bottom=row-1, left=col,right=col-1;
+    int top=0,bottom=row-1, left=0,right=col-1;
 
   while(top<=bottom && left<=right){
 
